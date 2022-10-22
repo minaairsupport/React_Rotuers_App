@@ -13,7 +13,9 @@ function App() {
       <nav>
         <ul>
           <li>
-            <Link to={'/'}>Home</Link>
+            <Link to={'/'} state={{ name: 'Mina' }}>
+              Home
+            </Link>
           </li>
           <li>
             {' '}
