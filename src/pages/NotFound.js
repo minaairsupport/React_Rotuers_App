@@ -6,6 +6,7 @@ function NotFound() {
 
   useEffect(() => {
     setTimeout(() => {
+      //-1 mean back to previous page
       navigate('/');
     }, 1000);
   }, []);
